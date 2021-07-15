@@ -79,11 +79,15 @@ def main():
 
     simulate_n_rounds("all luck", make_player_pool, actual_stdev)
 
-    create_some_skill_players = lambda: make_player_pool(skill_dist="uniform", skill_dist_params={"min": 1400, "max": 1600})
-    simulate_n_rounds("some skill", create_some_skill_players, actual_stdev)
+    create_some_skill_players = lambda: make_player_pool(skill_dist="uniform", skill_dist_params={"min": 1300, "max": 1700})
+    simulate_n_rounds("some skill (1300-1700 ELO)", create_some_skill_players, actual_stdev)
 
-    create_more_skill_players = lambda: make_player_pool(skill_dist="uniform", skill_dist_params={"min": 1200, "max": 1800})
-    simulate_n_rounds("more skill", create_more_skill_players, actual_stdev)
+    create_more_skill_players = lambda: make_player_pool(skill_dist="uniform", skill_dist_params={"min": 1100, "max": 1900})
+    simulate_n_rounds("more skill (1100-1900 ELO)", create_more_skill_players, actual_stdev)
+
+    create_lots_of_skill_players = lambda: make_player_pool(skill_dist="uniform", skill_dist_params={"min": 900, "max": 2100})
+    simulate_n_rounds("lots of skill (900-2100 ELO)", create_lots_of_skill_players, actual_stdev)
+
 
 
 if __name__ == "__main__":
