@@ -1,0 +1,26 @@
+Actual SD:
+4.369868433718365
+
+Distirbution of all luck SDs:
+Min: 2.6700247673129396
+Avg: 3.5790225799817104
+Max: 4.329195708658938
+Percentile of Actual SD in all luck dist: 1.0
+
+Distirbution of some skill (1300-1700 ELO) SDs:
+Min: 3.1622776601683795
+Avg: 4.003908319034925
+Max: 4.879185548111818
+Percentile of Actual SD in all luck dist: 0.938
+
+Distirbution of more skill (1150-1850 ELO) SDs:
+Min: 3.6895668073374757
+Avg: 4.390387930216405
+Max: 5.102181696540817
+Percentile of Actual SD in all luck dist: 0.466
+
+Distirbution of lots of skill (1000-2000 ELO) SDs:
+Min: 3.847915229433105
+Avg: 4.636130097955276
+Max: 5.13055363924414
+Percentile of Actual SD in all luck dist: 0.094
